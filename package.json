@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "HTTP server that accepts file upload from web browser",
   "main": "index.js",
+  "bin": {
+    "simple-upload-server": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

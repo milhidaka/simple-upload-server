@@ -1,2 +1,6 @@
 # simple-upload-server
 HTTP server that accepts file upload from web browser
+
+Files will be uploaded to current directory.
+
+DO NOT expose this server to the internet. Clients can read / write any file under upload directory (default: current directory) without any authentication.

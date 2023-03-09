@@ -1,0 +1,24 @@
+{
+  "name": "simple-upload-server",
+  "version": "1.0.0",
+  "description": "HTTP server that accepts file upload from web browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milhidaka/simple-upload-server.git"
+  },
+  "keywords": [],
+  "author": "Masatoshi Hidaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milhidaka/simple-upload-server/issues"
+  },
+  "homepage": "https://github.com/milhidaka/simple-upload-server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
